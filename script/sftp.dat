@@ -1,0 +1,23 @@
+# Connect to Server
+open sftp://sftpid@server.com/ -passphrase=passphrase123 -privatekey=%AppHome%\ppk\private-key.ppk -hostkey="ssh-rsa 2048 f3:1c:33:61:ec:9f:0d:05:a3:61:2c:1b:e7:13:a6:67;*"
+
+# Automatically abort script on errors:
+option batch abort
+
+# Disable file overwrite confirmations
+option confirm off
+
+# Change the file uploading server location
+cd %TargetFolder%
+
+# Upload the file to the server
+echo Local File Name %InputFile%
+put %InputFile% %TargetFolder%
+chmod 644 %TargetFolder%*
+
+
+# List Directory
+ls *
+
+# Exit from WinScp
+bye  

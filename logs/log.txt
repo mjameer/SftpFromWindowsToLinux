@@ -1,0 +1,20 @@
+****************************************************************************
+Thu 10/17/2024 : 100.100.1.1
+Searching for host...
+Connecting to host...
+Authenticating...
+WARNING! Giving up security and accepting any host key as configured!
+Using username "sftpid".
+Authenticating with public key "sftp-appname".
+Authenticated.
+Starting the session...
+Session started.
+Active session: [1] sftpid@server.com
+batch           abort     
+reconnecttime   120       
+confirm         off       
+/apps/sourcefiles/
+Local File Name "C:\sftpBatch\SourceFiles\deleteNew.txt"
+C:\sftpBatch\SourceFiles\deleteNew.txt |            8 B |    0.0 KB/s | binary | 100%
+/apps/sourcefiles/deleteNew.txt
+Return:0  
