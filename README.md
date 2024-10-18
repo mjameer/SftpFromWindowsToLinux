@@ -8,11 +8,7 @@
 - Windows Batch
 - PuttyGen
 
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/78a087c8-ad16-46f1-96a6-0bc119bf657f" alt="image">
-</p>
-
+![image](https://github.com/user-attachments/assets/78a087c8-ad16-46f1-96a6-0bc119bf657f)
 
 #### To Generate Public and Private Key
 
